@@ -6,7 +6,7 @@ Creando un balanceador para contenedores Docker
 
 Cuando tengamos la máquina preparada y lista, instalamos docker y docker-compose como hemos hecho en prácticas anteriores.
 
-En esta práctica se va a reutilizar el contenido de la práctica 16 en la que dockerizamos nuestro propio contenedor con apache pero incluyendo el balanceador, recordemos que es necesario tener las carpetas correspondientes en la máquina, para cualquier duda ver repositorio de [practica-16](https://github.com/vaeruiz/iaw-practica-16).
+En esta práctica se va a reutilizar el contenido de la práctica 16 en la que dockerizamos nuestro propio contenedor con apache pero incluyendo el balanceador, recordemos que es necesario tener las carpetas correspondientes en la máquina, para cualquier duda ver el repositorio de la [practica-16](https://github.com/vaeruiz/iaw-practica-16).
 
 ## Trabajando con docker
 
