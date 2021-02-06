@@ -1,4 +1,3 @@
-
 FROM ubuntu:focal
 
 LABEL author="Pedro Ángel Castiñeira Ruiz - José Juan Sánchez"
@@ -18,4 +17,6 @@ RUN apt install git -y \
     && sed -i 's/localhost/mysql/' /var/www/html/config.php \
     && rm /var/www/html/index.html
 
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"] 
+EXPOSE 80
+
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
