@@ -1,12 +1,12 @@
 # Balanceador con contenedores Docker
 
-Creando un balanceador para contenedores Docker
+Creando un balanceador para contenedores Docker con HAProxy
 
 ## Preparando la máquina
 
-Cuando tengamos la máquina preparada y lista, instalamos docker y docker-compose como hemos hecho en prácticas anteriores.
+Tenemos que tener una máquina de AWS con los puertos 80, 8080, y 1936 abiertos, se han utilizado 4GB de memoria para esta práctica. Cuando tengamos la máquina preparada y lista, instalamos docker y docker-compose como hemos hecho en prácticas anteriores.
 
-En esta práctica se va a reutilizar el contenido de la práctica 16 en la que dockerizamos nuestro propio contenedor con apache pero incluyendo el balanceador, recordemos que es necesario tener las carpetas correspondientes en la máquina, para cualquier duda ver el repositorio de la [practica-16](https://github.com/vaeruiz/iaw-practica-16).
+En esta práctica se va a reutilizar el contenido de la práctica 16 en la que dockerizamos nuestro propio contenedor con apache pero incluyendo el balanceador y con las correspondientes adaptaciones en los archivos, recordemos que es necesario tener las carpetas correspondientes en la máquina, para cualquier duda ver el repositorio de la [practica-16](https://github.com/vaeruiz/iaw-practica-16).
 
 ## Trabajando con docker
 
