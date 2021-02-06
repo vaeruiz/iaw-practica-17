@@ -13,3 +13,6 @@ En esta práctica se va a reutilizar el contenido de la práctica 16 en la que d
 El archivo .yml que he utilizado en la práctica se encontrará en el repositorio junto con su correspondiente env y dockerfile.
 
 A la hora de levantar nuestra infraestructura lo haremos con el comando docker-compose up -d --scale apache=4 para que se pongan en marcha 4 contenedores y podamos comprobar que el balanceador está funcionando. Podemos editar el html de cada contenedor para diferenciar mejor el balanceo de carga.
+
+
+- **Dirección IP de la máquina de Amazon.** 3.236.22.119
