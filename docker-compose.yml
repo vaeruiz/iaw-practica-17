@@ -40,6 +40,7 @@ services:
         depends_on: 
             - mysql
         restart: always
+   
     lb:
         image: dockercloud/haproxy
         networks:
@@ -52,7 +53,9 @@ services:
             - apache
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock
-
+        networks:
+            - backend-network
+            - frontend-network
 networks:
     frontend-network:
     backend-network:
