@@ -34,9 +34,6 @@ services:
 
     apache:
         build: ./apache
-        networks:
-            - frontend-network
-            - backend-network
         depends_on: 
             - mysql
         restart: always
